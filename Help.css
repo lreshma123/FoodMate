@@ -1,0 +1,37 @@
+.helptable {
+    align-items: center;
+    padding-top: 50px;
+  }
+  
+  table {
+    width: 50%;
+  }
+  
+  table td {
+    padding: 10px;
+  }
+  
+  input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    color: white;
+    background-color: orangered;
+    
+  }
+  button:hover {
+    box-shadow: 0px 0px 10px orangered;
+  }
+  img { /* changes the image color form pink to orange*/
+    filter: hue-rotate(40deg); 
+    max-width: 100%;
+   
+    
+  }
